@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BDC6A94C2D21F89F00C11735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDC6A9302D21F89D00C11735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC6A9372D21F89D00C11735;
+			remoteInfo = TapTune;
+		};
+		BDC6A9562D21F89F00C11735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDC6A9302D21F89D00C11735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC6A9372D21F89D00C11735;
+			remoteInfo = TapTune;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDC6A9382D21F89D00C11735 /* TapTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC6A94B2D21F89F00C11735 /* TapTuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC6A9552D21F89F00C11735 /* TapTuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BDC6A93A2D21F89D00C11735 /* TapTune */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TapTune;
+			sourceTree = "<group>";
+		};
+		BDC6A94E2D21F89F00C11735 /* TapTuneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TapTuneTests;
+			sourceTree = "<group>";
+		};
+		BDC6A9582D21F89F00C11735 /* TapTuneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TapTuneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDC6A9352D21F89D00C11735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC6A9482D21F89F00C11735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC6A9522D21F89F00C11735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDC6A92F2D21F89D00C11735 = {
+			isa = PBXGroup;
+			children = (
+				BDC6A93A2D21F89D00C11735 /* TapTune */,
+				BDC6A94E2D21F89F00C11735 /* TapTuneTests */,
+				BDC6A9582D21F89F00C11735 /* TapTuneUITests */,
+				BDC6A9392D21F89D00C11735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDC6A9392D21F89D00C11735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDC6A9382D21F89D00C11735 /* TapTune.app */,
+				BDC6A94B2D21F89F00C11735 /* TapTuneTests.xctest */,
+				BDC6A9552D21F89F00C11735 /* TapTuneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDC6A9372D21F89D00C11735 /* TapTune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC6A95F2D21F89F00C11735 /* Build configuration list for PBXNativeTarget "TapTune" */;
+			buildPhases = (
+				BDC6A9342D21F89D00C11735 /* Sources */,
+				BDC6A9352D21F89D00C11735 /* Frameworks */,
+				BDC6A9362D21F89D00C11735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BDC6A93A2D21F89D00C11735 /* TapTune */,
+			);
+			name = TapTune;
+			packageProductDependencies = (
+			);
+			productName = TapTune;
+			productReference = BDC6A9382D21F89D00C11735 /* TapTune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDC6A94A2D21F89F00C11735 /* TapTuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC6A9622D21F89F00C11735 /* Build configuration list for PBXNativeTarget "TapTuneTests" */;
+			buildPhases = (
+				BDC6A9472D21F89F00C11735 /* Sources */,
+				BDC6A9482D21F89F00C11735 /* Frameworks */,
+				BDC6A9492D21F89F00C11735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC6A94D2D21F89F00C11735 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BDC6A94E2D21F89F00C11735 /* TapTuneTests */,
+			);
+			name = TapTuneTests;
+			packageProductDependencies = (
+			);
+			productName = TapTuneTests;
+			productReference = BDC6A94B2D21F89F00C11735 /* TapTuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDC6A9542D21F89F00C11735 /* TapTuneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC6A9652D21F89F00C11735 /* Build configuration list for PBXNativeTarget "TapTuneUITests" */;
+			buildPhases = (
+				BDC6A9512D21F89F00C11735 /* Sources */,
+				BDC6A9522D21F89F00C11735 /* Frameworks */,
+				BDC6A9532D21F89F00C11735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC6A9572D21F89F00C11735 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BDC6A9582D21F89F00C11735 /* TapTuneUITests */,
+			);
+			name = TapTuneUITests;
+			packageProductDependencies = (
+			);
+			productName = TapTuneUITests;
+			productReference = BDC6A9552D21F89F00C11735 /* TapTuneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDC6A9302D21F89D00C11735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BDC6A9372D21F89D00C11735 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BDC6A94A2D21F89F00C11735 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BDC6A9372D21F89D00C11735;
+					};
+					BDC6A9542D21F89F00C11735 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BDC6A9372D21F89D00C11735;
+					};
+				};
+			};
+			buildConfigurationList = BDC6A9332D21F89D00C11735 /* Build configuration list for PBXProject "TapTune" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDC6A92F2D21F89D00C11735;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BDC6A9392D21F89D00C11735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDC6A9372D21F89D00C11735 /* TapTune */,
+				BDC6A94A2D21F89F00C11735 /* TapTuneTests */,
+				BDC6A9542D21F89F00C11735 /* TapTuneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDC6A9362D21F89D00C11735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC6A9492D21F89F00C11735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC6A9532D21F89F00C11735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDC6A9342D21F89D00C11735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC6A9472D21F89F00C11735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC6A9512D21F89F00C11735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDC6A94D2D21F89F00C11735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC6A9372D21F89D00C11735 /* TapTune */;
+			targetProxy = BDC6A94C2D21F89F00C11735 /* PBXContainerItemProxy */;
+		};
+		BDC6A9572D21F89F00C11735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC6A9372D21F89D00C11735 /* TapTune */;
+			targetProxy = BDC6A9562D21F89F00C11735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDC6A95D2D21F89F00C11735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDC6A95E2D21F89F00C11735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BDC6A9602D21F89F00C11735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapTune/TapTune.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapTune/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PZDASD8XL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.TapTune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BDC6A9612D21F89F00C11735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapTune/TapTune.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapTune/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PZDASD8XL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.TapTune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BDC6A9632D21F89F00C11735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PZDASD8XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.TapTuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapTune.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapTune";
+			};
+			name = Debug;
+		};
+		BDC6A9642D21F89F00C11735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PZDASD8XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.TapTuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapTune.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapTune";
+			};
+			name = Release;
+		};
+		BDC6A9662D21F89F00C11735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PZDASD8XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.TapTuneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TapTune;
+			};
+			name = Debug;
+		};
+		BDC6A9672D21F89F00C11735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PZDASD8XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.TapTuneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TapTune;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDC6A9332D21F89D00C11735 /* Build configuration list for PBXProject "TapTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC6A95D2D21F89F00C11735 /* Debug */,
+				BDC6A95E2D21F89F00C11735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC6A95F2D21F89F00C11735 /* Build configuration list for PBXNativeTarget "TapTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC6A9602D21F89F00C11735 /* Debug */,
+				BDC6A9612D21F89F00C11735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC6A9622D21F89F00C11735 /* Build configuration list for PBXNativeTarget "TapTuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC6A9632D21F89F00C11735 /* Debug */,
+				BDC6A9642D21F89F00C11735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC6A9652D21F89F00C11735 /* Build configuration list for PBXNativeTarget "TapTuneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC6A9662D21F89F00C11735 /* Debug */,
+				BDC6A9672D21F89F00C11735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDC6A9302D21F89D00C11735 /* Project object */;
+}
