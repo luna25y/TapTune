@@ -13,8 +13,7 @@
 TapTune is a macOS application that simulates mechanical keyboard sounds. Every keystroke produces a realistic mechanical keyboard click sound.
 
 #### Why TapTune?
-- Few mechanical keyboards are optimized for macOS.
-- For users who enjoy the variety of mechanical key sounds, TapTune offers a highly customizable experience.
+There are not many mechanical keyboards compatible with Mac computers, and I like different key sounds, so I made this small software.
 
 #### Key Features
 - Supports multiple preset keyboard sounds (e.g., Black switches, Brown switches).
@@ -34,8 +33,7 @@ TapTune is a macOS application that simulates mechanical keyboard sounds. Every 
 TapTune 是一款 macOS 应用，用于模拟机械键盘的按键声音。每次按下键盘上的任意按键，都会发出真实的机械键盘按键音。
 
 #### 为什么做这个软件？
-- mac 电脑上适配的机械键盘不多，喜欢机械键盘按键声音的人群需求未被满足。
-- 用户可以自定义不同的按键声音，满足个性化需求。
+Mac 电脑适配的机械键盘不多，并且喜欢不同的按键声音，所以做了这个小软件使用。
 
 #### 功能特点
 - 支持多种预设键盘声音（如黑轴、茶轴等）。
@@ -55,8 +53,7 @@ TapTune 是一款 macOS 应用，用于模拟机械键盘的按键声音。每�
 TapTune は macOS 用のアプリで、メカニカルキーボードのキー音をシミュレートします。キーボードのキーを押すたびに、リアルなメカニカルキーボードのクリック音が再生されます。
 
 #### このソフトを作った理由
-- mac パソコンに最適化されたメカニカルキーボードは少なく、異なるキー音を楽しみたいというニーズがあります。
-- ユーザーは様々なカスタマイズができるので、個性に合った体験が可能です。
+Mac コンピュータに適したメカニカル キーボードはあまりなく、私はさまざまなキーの音が好きなので、この小さなソフトウェアを作成して使用しました。
 
 #### 特徴
 - 複数のプリセットキーボード音をサポート（例: 黒軸、茶軸など）。
