@@ -1,10 +1,3 @@
-//
-//  SoundManager.swift
-//  TapTune
-//
-//  Created by luna on 2024-12-29.
-//
-
 // 声音管理器
 
 import Foundation
@@ -35,34 +28,24 @@ extension Notification.Name {
 }
 
 class SoundManager: NSObject, ObservableObject, AVAudioPlayerDelegate {
+    @Published var customSoundName: String = ""
+    @Published var volume: Double = 0.5
+    @Published var currentSoundType: SoundType = .tofu
+    
+    private var currentCustomSound: CustomSound?
+    private var eventMonitor: Any?
     private var audioPlayers: [AVAudioPlayer] = []
     @Published var customSounds: [CustomSound] = []
-    @Published var customSoundName: String {
-        didSet {
-            NotificationCenter.default.post(name: .settingsChanged, object: nil)
-        }
-    }
-    @Published var volume: Double {
-        didSet {
-            updateVolume()
-            NotificationCenter.default.post(name: .settingsChanged, object: nil)
-        }
-    }
-    @Published var currentSoundType: SoundType {
-        didSet {
-            NotificationCenter.default.post(name: .settingsChanged, object: nil)
-        }
-    }
-    private var currentCustomSound: CustomSound?
     
     override init() {
+        super.init()
+        print("SoundManager - 开始初始化")
+        
         // 从保存的设置中加载
         let settings = AppSettings.loadSettings()
         self.volume = settings.volume
         self.currentSoundType = settings.soundType
         self.customSoundName = settings.customSoundName ?? ""
-        
-        super.init()
         
         // 加载自定义声音
         loadCustomSounds()
@@ -72,6 +55,65 @@ class SoundManager: NSObject, ObservableObject, AVAudioPlayerDelegate {
            let soundName = settings.customSoundName,
            let sound = customSounds.first(where: { $0.name == soundName }) {
             selectCustomSound(sound)
+        }
+        
+        // 先请求权限，确保权限请求不会影响其他功能
+        DispatchQueue.main.async { [weak self] in
+            self?.requestAccessibilityPermission()
+        }
+        
+        print("SoundManager - 初始化完成")
+    }
+    
+    private func requestAccessibilityPermission() {
+        print("SoundManager - 开始请求辅助功能权限")
+        let options = [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true]
+        let accessEnabled = AXIsProcessTrustedWithOptions(options as CFDictionary)
+        print("SoundManager - 辅助功能权限状态: \(accessEnabled)")
+        
+        if accessEnabled {
+            print("SoundManager - 已有权限，设置键盘监听")
+            setupKeyboardMonitor()
+        } else {
+            print("SoundManager - 没有权限，显示权限请求对话框")
+            let alert = NSAlert()
+            alert.messageText = "需要辅助功能权限"
+            alert.informativeText = "请在系统偏好设置中授予TapTune辅助功能权限，以便监听键盘事件。\n添加权限后请重新打开应用。"
+            alert.alertStyle = .warning
+            alert.addButton(withTitle: "打开系统偏好设置")
+            alert.addButton(withTitle: "退出")
+            
+            DispatchQueue.main.async {
+                let response = alert.runModal()
+                if response == .alertFirstButtonReturn {
+                    NSWorkspace.shared.open(URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_Accessibility")!)
+                }
+                NSApplication.shared.terminate(nil)
+            }
+        }
+    }
+    
+    private func setupKeyboardMonitor() {
+        print("SoundManager - 开始设置键盘监听器")
+        eventMonitor = NSEvent.addGlobalMonitorForEvents(matching: .keyDown) { [weak self] _ in
+            print("SoundManager - 检测到键盘事件")
+            DispatchQueue.main.async {
+                self?.playSound(type: self?.currentSoundType ?? .tofu)
+            }
+        }
+        
+        if eventMonitor != nil {
+            print("SoundManager - 键盘监听器设置成功")
+        } else {
+            print("SoundManager - 键盘监听器设置失败")
+        }
+    }
+    
+    deinit {
+        print("SoundManager - 被释放")
+        if let monitor = eventMonitor {
+            NSEvent.removeMonitor(monitor)
+            print("SoundManager - 键盘监听器已移除")
         }
     }
     

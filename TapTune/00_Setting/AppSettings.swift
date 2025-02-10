@@ -1,10 +1,3 @@
-//
-//  AppSettings.swift
-//  TapTune
-//
-//  Created by luna on 2024-12-29.
-//
-
 // 应用设置
 
 import Foundation

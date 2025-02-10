@@ -1,10 +1,3 @@
-//
-//  LanguageManager.swift
-//  TapTune
-//
-//  Created by luna on 2024-12-29.
-//
-
 // 语言管理器
 
 import Foundation

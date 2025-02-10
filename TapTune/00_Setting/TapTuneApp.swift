@@ -1,9 +1,3 @@
-//
-//  TapTuneApp.swift
-//  TapTune
-//
-//  Created by luna on 2024-12-27.
-//
 // 入口文件
 
 import SwiftUI
@@ -11,16 +5,19 @@ import SwiftUI
 class TapTuneApp: NSObject, NSApplicationDelegate {
     public let soundManager = SoundManager()
     public let menuBarManager: MenuBarManager
+    private var mainWindow: NSWindow?
     
     // 初始化器
     required override init() {
+        print("TapTuneApp - 开始初始化")
         self.menuBarManager = MenuBarManager(soundManager: soundManager)
         super.init()
+        print("TapTuneApp - 初始化完成")
     }
     
     // 应用启动时调用
     func applicationDidFinishLaunching(_ notification: Notification) {
-        // 初始化操作
+        print("TapTuneApp - applicationDidFinishLaunching 被调用")
     }
 }
 

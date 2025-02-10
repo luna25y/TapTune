@@ -3,10 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>NSFileProviderDomainUsageDescription</key>
-	<string>需要监测键盘输入事件以实现功能</string>
+	<string>需要辅助功能权限来监听键盘事件</string>
 	<key>NSDocumentsFolderUsageDescription</key>
 	<string>需要访问文件夹来导入音频文件</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>需要访问麦克风来处理音频</string>
+	<key>Privacy - Accessibility Usage Description</key>
+	<string>需要辅助功能权限来监听键盘事件</string>
+	<key>LSUIElement</key>
+	<true/>
 </dict>
 </plist>

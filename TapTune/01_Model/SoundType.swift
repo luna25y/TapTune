@@ -1,10 +1,3 @@
-//
-//  SoundType.swift
-//  TapTune
-//
-//  Created by luna on 2024-12-29.
-//
-
 // 声音类型
 
 import Foundation

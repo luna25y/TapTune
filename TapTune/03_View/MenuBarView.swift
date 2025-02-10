@@ -1,11 +1,3 @@
-//
-//  MenuBarView.swift
-//  TapTune
-//
-//  Created by luna on 2024-12-29.
-//
-
-// MenuBarView.swift
 // 菜单栏视图，负责显示和处理所有用户界面交互
 
 import SwiftUI

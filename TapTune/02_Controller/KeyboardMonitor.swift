@@ -1,10 +1,3 @@
-//
-//  KeyboardMonitor.swift
-//  TapTune
-//
-//  Created by luna on 2024-12-29.
-//
-
 // 键盘监听器
 
 import Foundation
